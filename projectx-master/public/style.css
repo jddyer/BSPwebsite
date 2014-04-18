@@ -1,0 +1,41 @@
+
+div .bar {
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    border: true;
+}
+#header {
+	background-position: center top;
+	height:auto;
+	width:auto;
+	background-color: #000;
+	background-image: url(../../../PICS/BPBanner.png);
+	background-repeat: no-repeat;	
+	body {
+  	background-color: #000;
+ 	 background-image: url(texture.png),(../../../PICS/BPBanner.png);
+ 	 background-position: center center, center top;
+ 	 background-repeat: repeat, no-repeat;
+}
+}
+
+#header-divider {
+    height: 20px;
+    background-color: grey;
+    position: relative;
+	
+}
+
+#sort-bar {
+    height: 50px;
+    background-color: red;
+    position: relative;
+}
+
+#gallery {
+    height: 500px;
+    background-color: black;
+    position: relative;
+}
+
